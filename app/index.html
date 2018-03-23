@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My CV Dapp - Truffle Webpack Demo w/ Frontend</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+<div class="container ">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1>Quang Nguyen-Anh </h1>
+      <br />
+      <h2>Ethereum Smart Contract Developer</h2>
+      <h3>My CV is on address <span id="myCVAddress"></span></h3>
+      <span id="allAccounts"></span>
+      <br />
+      <br />
+      <br />
+
+
+      <button type="button" onclick="App.fGetMySummary()">Show Summary</button>
+      <br />
+      <span id="getSummary"></span>
+      <br />
+      <br />
+
+      <button type="button" onclick="App.fGetMyExperience()">Show Experiences</button>
+      <br />
+      <span id="getExperience"></span>
+      <br />
+      <br />
+
+      <button type="button" onclick="App.fGetMySkill()">Show Skills</button>
+      <br />
+      <span id="getSkill"></span>
+      <br />
+      <br />
+    </div>
+  </div>
+
+  <br>
+  <h1>Edit my CV</h1>
+  <form onsubmit="App.fEditSummary(); return false;">
+    <div class="form-group">
+      <h2 for="editMySummary">Update my summary</h2>
+      <input type="text" class="form-control" id="editMySummary" placeholder="Update my summary">
+    </div>
+    <button type="submit" class="btn btn-default">Update</button>
+  </form>
+  <br />
+  <br />
+
+  <form onsubmit="App.fEditExperience(); return false;">
+    <div class="form-group">
+      <h2 for="editMyExperience">Update my experience</h2>
+      <input type="text" class="form-control" id="editMyExperience" placeholder="Update my experience">
+    </div>
+    <button type="submit" class="btn btn-default">Update</button>
+  </form>
+  <br />
+  <br />
+
+  <form onsubmit="App.fEditSkill(); return false;">
+    <div class="form-group">
+      <h2 for="editMySkill">Update my skill</h2>
+      <input type="text" class="form-control" id="editMySkill" placeholder="Update my skill">
+    </div>
+    <button type="submit" class="btn btn-default">Update</button>
+  </form>
+  <br />
+  <br />
+
+  <br />
+
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>Edited my Summary logs</h3>
+      <div id="summaryLogs"></div>
+    </div>
+    <br />
+    <br />
+    <div class="col-lg-12">
+      <h3>Edited my Experience logs</h3>
+      <div id="experienceLogs"></div>
+    </div>
+    <br />
+    <br />
+    <div class="col-lg-12">
+      <h3>Edited my Skill logs</h3>
+      <div id="skillLogs"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

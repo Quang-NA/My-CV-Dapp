@@ -1,0 +1,10 @@
+This is my CV Dapp Example.
+
+Please follow instructions below:
+1. Create a new empty folder.
+2. Type command: "truffle unbox webpack"
+3. Copy and replace files and folders.
+4. Using Ganache as Private Ethereum Blockchain.
+5. Type command: "truffle compile"
+6. Type command: "truffle migrate"
+7. Type command: "npm run dev"
