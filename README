@@ -1,4 +1,4 @@
-This is my CV Dapp Example.
+This is my CV Dapp Example for Ethereum Blockchain Developer - Build Projects using Solidity Course.
 
 Please follow instructions below:
 1. Create a new empty folder.
@@ -8,3 +8,5 @@ Please follow instructions below:
 5. Type command: "truffle compile"
 6. Type command: "truffle migrate"
 7. Type command: "npm run dev"
+
+Thanks you!
